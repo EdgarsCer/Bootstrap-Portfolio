@@ -93,6 +93,12 @@ section p {
   text-decoration: none;
 }
 
+.btn:hover{
+  box-shadow: 1px 1px 1px 5px rgba(130, 163, 172, 0.3);
+  background-color: rgba(130, 163, 172, 0.3);
+  color: black;
+}
+
 .work-grid p {
   font-size: 16px;
   align-items: center;
@@ -172,7 +178,7 @@ section p {
 
 
 .Drop-menu {
-  background-color: rgb(130, 163, 172) !important;
+  background-color: rgb(130, 163, 172,) !important;
 }
 
 .card-img-overlay {
@@ -194,11 +200,6 @@ footer a{
   color: black;
 }
 
-a:hover {
-  color: rgb(172, 29, 29);
-  
-}
- 
 footer a:hover {
   color: white;
   
