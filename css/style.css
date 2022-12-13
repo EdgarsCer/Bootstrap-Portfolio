@@ -32,6 +32,10 @@ div {
   background-color: rgb(115, 166, 181);
 }
 
+.dropdown-menu{
+  background-color: rgb(115, 166, 181, 0.6) !important;
+}
+
 .navbar-brand:hover {
   color: white !important;
   
@@ -169,13 +173,6 @@ section p {
   text-align: center;
 
 }
-
-/* footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
-
-
 
 .Drop-menu {
   background-color: rgb(130, 163, 172,) !important;
