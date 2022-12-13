@@ -32,13 +32,15 @@ div {
   background-color: rgb(115, 166, 181);
 }
 
-.dropdown-menu{
+/* makes text more visible whn drop down bar is activated */
+.dropdown-menu {
   background-color: rgb(115, 166, 181, 0.6) !important;
 }
 
+/* maked About me stand out when hover over */
 .navbar-brand:hover {
   color: white !important;
-  
+
 }
 
 
@@ -73,6 +75,7 @@ section p {
   margin-top: 30px;
 }
 
+/*  makes Image more appropriate */
 .container img {
   height: 75px;
   width: 75px;
@@ -97,7 +100,8 @@ section p {
   text-decoration: none;
 }
 
-.btn:hover{
+/* buttons on Works are more extenuated */
+.btn:hover {
   box-shadow: 1px 1px 1px 5px rgba(130, 163, 172, 0.3);
   background-color: rgba(130, 163, 172, 0.3);
   color: black;
@@ -165,6 +169,7 @@ section p {
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
+  /* makes black text more visible on dark background */
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
   outline-style: outset;
   outline-width: 12px;
@@ -175,7 +180,7 @@ section p {
 }
 
 .Drop-menu {
-  background-color: rgb(130, 163, 172,) !important;
+  background-color: rgb(130, 163, 172, ) !important;
 }
 
 .card-img-overlay {
@@ -191,16 +196,18 @@ footer {
   justify-content: center;
   text-indent: 20px;
 }
-footer a{
-  font-size: 10px;
+
+footer a {
+  font-size: 14px;
   text-decoration: none;
   color: black;
 }
 
 footer a:hover {
   color: white;
-  
-} 
+
+}
+
 @media screen and (max-width: 900px) {
   hero h3 {
     font-size: 10px;
